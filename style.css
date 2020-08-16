@@ -9,7 +9,7 @@ body{
 	background: #333;
     border-top: 3px solid #f66;
     border-bottom: 3px solid #f66;
- max-width: 5000px;
+ max-width: 2000px;
 	width: 100%;
     height: 140px;
     right: 0px;
@@ -33,13 +33,28 @@ body{
 
 }
 .navigation:hover .dop2{}
-	
-.uptitle{width: 100%;top: 0px;
+
+
+
+
+
+.uptitle{max-width: 5000px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 	left: 0px;
-right: 0px;position: absolute;
-
-
 }
+.line{background-color: #000;
+	height: 50px;width: 100%;
+}
+.centerline{background-color: #FCF0B8;
+	height: 100px;width: 100%;
+}
+
+
+
+
 .dop{transition: 0.5s;}
 .dop3{transition: 0.5s;}
 .dop5{transition: 0.5s;}
@@ -83,7 +98,7 @@ td{
 .V1{ float: right;
 	margin-top: 40px;
 	box-shadow: 0 0 10px #000000;
-	max-width: 5000px;
+	max-width: 2000px;
 	width: 67%;
 	height: 400px;	position: relative;
 	background-color: #333;
@@ -117,7 +132,7 @@ a:hover{
 
 .V2{float: left;margin-top: 40px;
 	box-shadow: 0 0 10px #000000;
-	max-width: 5000px;
+	max-width: 2000px;
 	width: 30%;
 	height: 400px;
 	position: relative;
@@ -147,10 +162,11 @@ a:hover{
 footer{
 
     background: #333;
-    max-width: 5000px;
+    max-width: 2000px;
     width: 100%;
 	filter: blur(2px);
     position: relative;
     top: 1400px;
     height: 200px;
 }
+
