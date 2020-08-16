@@ -9,7 +9,7 @@ body{
 	background: #333;
     border-top: 3px solid #f66;
     border-bottom: 3px solid #f66;
- max-width: 2000px;
+ max-width: 5000px;
 	width: 100%;
     height: 140px;
     right: 0px;
@@ -83,7 +83,7 @@ td{
 .V1{ float: right;
 	margin-top: 40px;
 	box-shadow: 0 0 10px #000000;
-	max-width: 2000px;
+	max-width: 5000px;
 	width: 67%;
 	height: 400px;	position: relative;
 	background-color: #333;
@@ -117,7 +117,7 @@ a:hover{
 
 .V2{float: left;margin-top: 40px;
 	box-shadow: 0 0 10px #000000;
-	max-width: 2000px;
+	max-width: 5000px;
 	width: 30%;
 	height: 400px;
 	position: relative;
@@ -147,7 +147,7 @@ a:hover{
 footer{
 
     background: #333;
-    max-width: 2000px;
+    max-width: 5000px;
     width: 100%;
 	filter: blur(2px);
     position: relative;
