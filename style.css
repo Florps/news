@@ -127,9 +127,9 @@ td{
 	
 }
 .img img{
-	border: 0px solid #f66;
+	border: 1px solid #f66;
 	
-	height: calc(205px + 60 * (100vw/1080));
+	height: calc(204px + 60 * (100vw/1080));
 	width: calc(120px + 50 * (100vw/1080));
 	z-index: 3;
 }
