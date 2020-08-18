@@ -51,9 +51,11 @@ body{
 	left: 0px;
 }
 .centerline{background-color: #E9DEAA;
-	border-top: 42px solid #333;
-	border-bottom: 42px solid #333;
-	height: calc(110px + 10 * (100vw/1080));
+	bottom: calc(0px + 12 * (100vw/1080));
+	position: relative;
+	border-top: calc(55px + 1* (100vw/1080)) solid #333;
+	border-bottom: calc(55px + 1 * (100vw/1080)) solid #333;
+	height: calc(100px + 20 * (100vw/1080));
 	width: 100%;
 }
 
@@ -161,10 +163,70 @@ footer{
     background: #333;
     max-width: 2000px;
     width: 100%;
-	filter: blur(2px);
+	
     position: relative;
     top: 100px;
     bottom: 0px;
     height: 200px;
+}
+
+.logo{
+	position: relative;
+	
+	border:3px solid  #f66;
+	top: calc(10px - 15 * (100vw/1080));
+	background-color:  #333;
+	width: calc(170px + 35 * (100vw/1080));
+	height: calc(170px + 35 * (100vw/1080));
+
+
+	z-index: 20;
+	border-radius: 50%;
+	
+  
+}
+
+.logo img{position: relative;
+	backface-visibility: hidden;
+	top: 5px;
+width: calc(160px + 35 * (100vw/1080));
+	height: calc(160px + 35 * (100vw/1080));
+
+	transition-duration: 1s;
+
+}
+#qwr{
+	transition-duration: 1s;
+	animation: nev 2s infinite alternate;
+}
+
+
+
+
+#rwq{
+	transition-duration: 1s;
+	position: absolute;
+	bottom: 200px;backface-visibility: visible;
+	transform: rotateY(-180deg);
+	right: 5px;
+	animation: nevw 2s  infinite alternate;
+}
+@keyframes nevw {
+0% {opacity: 1;transform:  rotateY(0deg);backface-visibility: hidden; }
+50% {opacity: 0.5;backface-visibility: hidden;
+}
+100%{opacity: 0;transform:  rotateY(180deg);backface-visibility: hidden;
+
+}
+}
+
+
+@keyframes nev {
+0% {opacity: 0;transform:  rotateY(180deg);backface-visibility: hidden; }
+50% {opacity: 0.5;backface-visibility: hidden;
+}
+100%{opacity: 1;transform:  rotateY(0deg);backface-visibility: hidden;
+
+}
 }
 
